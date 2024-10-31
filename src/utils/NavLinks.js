@@ -3,7 +3,8 @@ export const mainNav = [
         id:1,
         name:'home',
         path:'/',
-        subPath:[]
+        subPath:[],
+        gridCol:0
     },
 
     {
@@ -105,33 +106,15 @@ export const mainNav = [
             },
 
             {
-                id:19,
-                name:'social media marketing',
-                path:'/service/social-media-marketing',
+                id:31,
+                name:'web devlopment',
+                path:'/web-development',
                 subPath:[
                     {
-                        id:20,
-                        name:'instagram & facebook',
-                        path:'/service/social-media-marketing/instagram-facebook'
-                    },
-
-                    {
-                        id:21,
-                        name:'influencer marketing',
-                        path:'/service/social-media-marketing/influencer-marketing'
-                    },
-
-                    {
-                        id:22,
-                        name:'content creator',
-                        path:'/service/social-media-marketing/cc'
-                    },
-
-                    {
-                        id:23,
-                        name:'instagram',
-                        path:'/service/social-media-marketing/instagram'
-                    },
+                        id:32,
+                        name:'word press',
+                        path:'/service/web-devlopment/custom'
+                    }
                 ]
             },
 
@@ -173,39 +156,61 @@ export const mainNav = [
             },
 
             {
-                id:31,
-                name:'web devlopment',
-                path:'/web-development',
+                id:19,
+                name:'social media marketing',
+                path:'/service/social-media-marketing',
                 subPath:[
                     {
-                        id:32,
-                        name:'word press',
-                        path:'/service/web-devlopment/custom'
-                    }
+                        id:20,
+                        name:'instagram & facebook',
+                        path:'/service/social-media-marketing/instagram-facebook'
+                    },
+
+                    {
+                        id:21,
+                        name:'influencer marketing',
+                        path:'/service/social-media-marketing/influencer-marketing'
+                    },
+
+                    {
+                        id:22,
+                        name:'content creator',
+                        path:'/service/social-media-marketing/cc'
+                    },
+
+                    {
+                        id:23,
+                        name:'instagram',
+                        path:'/service/social-media-marketing/instagram'
+                    },
                 ]
-            }
-        ]
+            },
+        ],
+        gridCol:5
     },
 
     {
         id:33,
         name:'about',
         path:'/about',
-        subPath:[]
+        subPath:[],
+        gridCol:0
     },
 
     {
         id:34,
         name:'carrer',
         path:'/carrer',
-        subPath:[]
+        subPath:[],
+        gridCol:0
     },
 
     {
         id:35,
         name:'Blog',
         path:'/blog',
-        subPath:[]
+        subPath:[],
+        gridCol:0
     },
 
     {
@@ -220,7 +225,8 @@ export const mainNav = [
                 subPath:[]
             },
 
-        ]
+        ],
+        gridCol:1
     }
 ]
 
